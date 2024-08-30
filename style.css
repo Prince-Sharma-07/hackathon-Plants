@@ -1,142 +1,181 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: green;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 20px;
-    align-items: center;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  align-items: center;
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 nav ul li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .search-bar {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .search-bar input {
-    padding: 5px;
-    border: none;
-    border-radius: 3px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
 }
 
 .search-bar button {
-    margin-left: 5px;
-    padding: 5px 10px;
-    background-color: black;
-    border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 3px;
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
 }
 
 .user-cart a {
-    margin-left: 20px;
-    color: white;
-    text-decoration: none;
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
 }
 
 .banner {
-    text-align: center;
-    background-image: url('6153772.jpg');
-    background-size: cover;
-    color: white;
-    padding: 170px 20px;
+
 }
 
 .banner h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
+  font-size: 48px;
+  margin-bottom: 10px;
 }
 
 .banner p {
-    font-size: 18px;
-    margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .banner button {
-    padding: 10px 20px;
-    background-color: #e67e22;
-    border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #e67e22;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.categories, .featured-products, .blog-preview {
-    /* padding: 40px 20px; */
-    text-align: center;
+
 }
 
 h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
-.category-grid, .product-grid, .blog-posts {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.category-grid,
+.product-grid,
+.blog-posts {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.category-item, .product-item , .blog-post {
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-    width: 200px;
-    margin: 30px;
-}
+
 
 .product-item img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 footer {
-    background-color: green;
-    color: white;
-    padding: 20px 0;
+  background-color: green;
+  color: white;
+  padding: 20px 0;
 }
 
 .footer-content {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
 }
 
 .footer-bottom {
-    text-align: center;
-    border-top: 1px solid #444;
-    padding-top: 10px;
+  text-align: center;
+  border-top: 1px solid #444;
+  padding-top: 10px;
 }
-.product-grid{
+
+/* LAVISH */
+.top-head {
+  background-color: rgb(158, 232, 158);
+}
+
+.img1 {
+  margin: 50px 50px;
+}
+
+.headings {
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-right: 10em;
+  color: white;
+  float: right;
+  font-size: 45px;
+  margin-top: 70px;
+}
+
+.modify {
+  margin: 50px 50px;
+}
+
+.para {
+  color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+
+/* Lakshay */
+.page1{
+    height: 100%;
+    width: 100%;
+   display: flex;
+   position: absolute;
+   margin: 20px;
+   justify-content: space-around;
+   border-radius: 10px;
+   /* padding: 20px; */
+}
+.pest{
+    font-size: 5em;
+    margin: 50px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
     display: flex;
+    display: table;
+    background-color: #00AC7C;
+    border-radius: 20px;
 }
